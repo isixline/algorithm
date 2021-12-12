@@ -21,6 +21,10 @@ public class Merge extends SortingBase {
     }
 
     public static void merge(Comparable[] a, int low, int mid, int hig) {
+        if (less(a[mid], a[mid + 1])) {
+            return;
+        }
+
         int i = low;
         int j = mid + 1;
 
