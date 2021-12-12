@@ -13,7 +13,7 @@ public class Shell extends SortingBase {
         while (h >= 1) {
             for (int i = h; i < length; i++) {
                 for (int j = i; j >= h && less(a[j], a[j - h]); j--) {
-                    exch(a, j, j - h);
+                    swap(a, j, j - h);
                 }
             }
 

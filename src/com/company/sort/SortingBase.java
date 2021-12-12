@@ -7,7 +7,7 @@ public class SortingBase {
         return v.compareTo(w) < 0;
     }
 
-    protected static void exch(Comparable[] a, int i, int j) {
+    protected static void swap(Comparable[] a, int i, int j) {
         Comparable t = a[i];
         a[i] = a[j];
         a[j] = t;

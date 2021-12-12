@@ -13,7 +13,7 @@ public class Selection extends SortingBase {
                 }
             }
 
-            exch(a, i, min);
+            swap(a, i, min);
         }
     }
 
